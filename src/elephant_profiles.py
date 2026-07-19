@@ -83,9 +83,8 @@ def elephant_profile(df_moves, individual_id):
     return m
 
 
-def elephant_profile_pdf(df_moves, individual_id, kruger_boundary,
-                          output_dir="/content/drive/MyDrive/Wildlife_Data/Projects/Boundary_Breach/Kruger_Elephants/Elephant_Profiles",
-                          preview=True):
+def elephant_profile_pdf(df_moves, individual_id, kruger_boundary, output_dir, preview=True):
+    
     """
     Generates a one-page PDF movement profile for one elephant: header,
     static movement-path map (with Kruger boundary overlay), key stats,
